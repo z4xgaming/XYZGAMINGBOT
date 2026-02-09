@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CM2 Guest Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Guest Login</h2>
+
+  <div id="login">
+    <button onclick="login()">Login as Guest</button>
+  </div>
+
+  <div id="loader" class="hide">
+    <div class="spin"></div>
+    <p id="status">Connecting to server...</p>
+    <p id="speed"></p>
+  </div>
+
+  <div id="done" class="hide">
+    <h3>✅ Login Success</h3>
+    <p id="uid"></p>
+    <p id="pass"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
