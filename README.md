@@ -1,2 +1,0 @@
-# XYZGAMINGBOT
-Ehehh
